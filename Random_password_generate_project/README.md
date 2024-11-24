@@ -1,18 +1,26 @@
 Random Password Generator (Python)
+
 Project Overview
+
 This project is a simple Random Password Generator script written in Python. The program generates a random password of a specified length, helping users create secure passwords for their accounts.
 
 Features
-Generate Random Passwords: Produces a random password based on a user-specified length.
-Character Customization: Uses a combination of uppercase letters, lowercase letters, digits, and special characters for strong password generation.
+
+-> Generate Random Passwords: Produces a random password based on a user-specified length.
+-> Character Customization: Uses a combination of uppercase letters, lowercase letters, digits, and special characters for strong password generation.
+
 Requirements
 Python (version 3.x)
+
 Installation and Usage
-Clone the repository or download the code files.
-Run the following command to start the script:
+1. Clone the repository or download the code files.
+2. Run the following command to start the script:
+   
 python Main.py
-Specify the desired password length when prompted, and a random password will be generated.
-Code Explanation
+
+3. Specify the desired password length when prompted, and a random password will be generated.
+
+Code Explanion
 The script uses the following modules:
 os.urandom(): Provides a source of random bytes to ensure better randomness.
 random.choice(): Selects random characters from a predefined set of characters.
